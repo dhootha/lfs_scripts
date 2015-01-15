@@ -7,10 +7,10 @@ chmod -v a+wt $LFS/sources
 
 wget -i wget-list -P $LFS/sources
 
-cp md5sums $LFS/sources
+cp md5sums_wget-list $LFS/sources
 
 pushd $LFS/sources
-md5sum -c md5sums
+md5sum -c md5sums_wget-list
 popd
 
 
