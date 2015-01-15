@@ -1,5 +1,12 @@
 #!/bin/bash
 
+tar -xf binutils-2.24.tar.bz2
+
+cd binutils-2.24
+
+mkdir -v ../binutils-build
+cd ../binutils-build
+
 ../binutils-2.24/configure \
 	--prefix=/tools \
 	--with-sysroot=$LFS \
