@@ -61,4 +61,8 @@ make
 
 make install
 
+cd ..
+
+rm -rf gcc-build
+rm -rf gcc-4.9.1
 

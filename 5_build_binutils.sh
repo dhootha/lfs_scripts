@@ -19,3 +19,8 @@ make
 
 make install
 
+cd ..
+
+rm -rf binutils-build
+rm -rf binutils-2.24
+
